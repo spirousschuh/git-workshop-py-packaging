@@ -130,3 +130,7 @@ dmypy.json
 
 #PyCharm
 .idea
+
+# default name of the cookiecutter package
+changing_the_world_step_by_step
+

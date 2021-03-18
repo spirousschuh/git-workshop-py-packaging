@@ -1,5 +1,5 @@
 import click
-from git-workshop-py-packaging.numbers_magic import addition
+from git_workshop_py_packaging.numbers_magic import addition
 
 
 @click.group()

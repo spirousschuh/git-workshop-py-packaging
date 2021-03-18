@@ -1,57 +1,60 @@
 
-git-workshop-py-packaging
-================================================
-
-
-.. toctree::
-   :maxdepth: 2
-
-   more_docu
+Git Workshop Part 4: Python Packaging
+=====================================
 
 
 Purpose
 _______
 
-Why do we need the package?
+In this documentation we just have some tasks that will help you understand
+the features of the
+`Kiwi Template for Python Packages <https://git.tu-berlin.de/bvt-htbd/kiwi/cookiecutter-python-package-template>`_.
+For a description of the content that enables you to solve the tasks,
+please take a look at the
+`template's documentation <https://kiwi-python-package-template.readthedocs.io/en/latest/?badge=latest>`_.
 
+Tasks
+________
 
-
-Example
-_______
-
-To ease the usage this package tries to follow the guidelines of scikit-learn
-estimators
-https://scikit-learn.org/stable/developers/develop.html. In practise the usage
-looks like this:
+The idea of the tasks is that you create a python package arround this file:
 
 .. code-block:: python
+   :caption: number_magic.py
 
-   import git-workshop-py-packaging
+   def addition(arg1, arg2):
+       """
+       This functions adds the first and the second argument.
 
-   trained_model = git-workshop-py-packaging.models.ExponentialDecay().fit(points_in_time, labels)
-   trained_model.predict(points_in_time)
+       :param arg1: the first summand
+       :type arg1:  float
+       :param arg2: the second and last summand
+       :type arg2:  float
+       :return:     the sum of both summands
+       :rtype:      float
+       """
+       return arg1 + arg2
 
-Features
---------
 
-The package implements the following methods
 
-- something
-- something more
+Tasks 1: Basic Package
+----------------------
 
-Installation
-------------
 
-Install the glucose package using `pip` by
+.. toctree::
+    :maxdepth: 2
 
-.. code-block:: bash
+    tasks/basic_packaging
 
-   cd git-workshop-py-packaging
-   pip install -e .
 
-Here we assume that you want to install the package in editable mode, because
-you would like to contribute to it. This package is not available on PyPI, it
-might be in the future, though.
+Tasks 2: Configure Continuous Integration
+-----------------------------------------
+
+
+.. toctree::
+    :maxdepth: 2
+
+    tasks/configure_ci
+
 
 Contribute
 ----------

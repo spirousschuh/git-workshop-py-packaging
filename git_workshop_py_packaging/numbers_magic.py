@@ -1,7 +1,3 @@
-'''
-This is an example module. Please change it according to your needs.
-'''
-
 
 def addition(arg1, arg2):
     """

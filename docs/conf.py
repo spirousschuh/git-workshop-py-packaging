@@ -18,7 +18,7 @@ import datetime
 
 # -- Project information -----------------------------------------------------
 
-project = 'git-workshop-py-packaging'
+project = 'git_workshop_py_packaging'
 copyright = '%(year)s, %(author)s' % dict(
     year=datetime.date.today().year,
     author='Christoph Lange'

@@ -16,7 +16,7 @@ def read(filename):
 
 
 setuptools.setup(
-    name="git-workshop-py-packaging",
+    name="git_workshop_py_packaging",
     version="0.0.1",
     url="https://github.com/spirousschuh/git-workshop-py-packaging",
     license='MIT',
@@ -28,11 +28,10 @@ setuptools.setup(
     long_description=read("README.rst"),
     long_description_content_type='test/x-rst',
     packages=setuptools.find_packages(exclude=('tests')),
-    install_requires=['click'],
+    install_requires=['click', 'tox'],
     entry_points={
         'console_scripts': [
-            'do_nothing='
-            'git-workshop-py-packaging.cli:cli_group'
+            'do-nothing=git_workshop_py_packaging.cli:cli_group'
         ],
     },
 )
