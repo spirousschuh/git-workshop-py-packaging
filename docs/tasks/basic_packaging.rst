@@ -104,6 +104,8 @@ another directory.
 
 The directory should look like this now:
 
+.. code-block:: none
+
    some_directory/
       plain_magic/
          __init__.py
@@ -131,6 +133,8 @@ To check if you succeeded you need to
 For solutions take a look `the template package <https://git.tu-berlin.de/bvt-htbd/kiwi/cookiecutter-python-package-template/-/tree/master/%7B%7Bcookiecutter.package_name%7D%7D>`_
 
 The directory should look like this now:
+
+.. code-block:: none
 
    some_directory/
       plain_magic/
