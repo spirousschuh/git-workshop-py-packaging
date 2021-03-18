@@ -82,7 +82,7 @@ Create a setup.py
 _________________
 
 Now create a ``setup.py`` according to the instructions of the
-`Kiwi template documentation <https://kiwi-python-package-template.readthedocs.io/en/latest/content/packaging_features.html>`.
+`Kiwi template documentation <https://kiwi-python-package-template.readthedocs.io/en/latest/content/packaging_features.html>`_.
 
 
 How can you check if you succeded?
