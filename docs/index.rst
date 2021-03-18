@@ -56,6 +56,16 @@ Tasks 2: Configure Continuous Integration
     tasks/configure_ci
 
 
+Tasks 3: Conventions
+--------------------
+
+
+.. toctree::
+    :maxdepth: 2
+
+    tasks/conventions
+
+
 Contribute
 ----------
 
